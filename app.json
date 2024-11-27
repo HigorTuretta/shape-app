@@ -1,28 +1,27 @@
 {
   "expo": {
-    "name": "shape-app",
+    "name": "SHAPE",
     "slug": "shape-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.higorturetta.shapeapp",
+      "versionCode": 1,
+      "permissions": []
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "platforms": [
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6f11cace-3937-4e82-a739-2baaa20cd0c3"
+      }
     }
   }
 }
